@@ -1,6 +1,5 @@
-<template lang="">
+<template>
     <div>
-        <h1>Example</h1>
         <ul>
             <li><router-link to="/example/tsexample">TypeScript example</router-link></li><br>
             <li><router-link to="/example/datetimeluxonjustmenu">DatetimeLuxonJustMenu</router-link></li><br>
@@ -12,6 +11,7 @@
             <li><router-link to="/example/timelinePiniaDataStructure">TimelinePiniaDataStructure</router-link></li><br>
             <li><router-link to="/example/timelineExtractingComplexity">TimelineExtractingComplexity</router-link></li><br>
             <li><router-link to="/example/timelineFetchApiExtractingComplexity">TimelineFetchApiExtractingComplexity</router-link></li><br>
+            <li><router-link to="/example/timelineFetchApiExtractingComplexity">TimelineFetchApiExtractingComplexity</router-link></li><br>
         </ul>
     </div>
     <router-view></router-view>
@@ -21,6 +21,6 @@
 </script>
 
 
-<style lang="">
+<style>
     
 </style>
