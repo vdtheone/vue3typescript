@@ -12,6 +12,11 @@ import Timeline from '../views/28timeline.vue'
 import TimelinePiniaDataStructure from '../views/30timelinePiniaDataStructure.vue'
 import TimelineExtractingComplexity from '../views/31timelineExtractingComplexity.vue'
 import TimelineFetchApiExtractingComplexity from '../views/32timelineFetchApiExtractingComplexity.vue'
+import TwowayBinding from '../views/TwowayBinding.vue'
+import ParentCompo from '../views/ParentCompo.vue'
+import CounterApp from '../views/counterApp.vue'
+import NotesApp from '../views/notesapp.vue'
+import QuizApp from '../views/quizApp.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -78,6 +83,27 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/fallthrough',
     component: Fallthrough
+  },
+  {
+    path: '/twowaybinding',
+    component: TwowayBinding
+  },
+  {
+    path: '/childtoparent',
+    component: ParentCompo
+  },
+  {
+    path: '/counterapp',
+    component: CounterApp
+  },
+
+  {
+    path: '/notesapp',
+    component: NotesApp
+  },
+  {
+    path: '/quizapp',
+    component: QuizApp
   },
 
 
