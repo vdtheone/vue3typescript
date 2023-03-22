@@ -3,8 +3,14 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/example">Example</router-link> |
-    <router-link to="/fallthrough">fallthrough</router-link>
+    <router-link to="/example">TypeScript Example</router-link> |
+    <router-link to="/fallthrough">fallthrough</router-link> |
+    <router-link to="/twowaybinding">Two-Way Binding</router-link> |
+    <router-link to="/childtoparent">ChildtoParent</router-link> |
+    <router-link to="/counterapp">CounterApp</router-link> |
+    <router-link to="/notesapp">NotesApp</router-link> |
+    <router-link to="/quizapp">QuizApp</router-link> |
+
   </nav>
   <router-view/>
   </div>
@@ -32,4 +38,5 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
 </style>
