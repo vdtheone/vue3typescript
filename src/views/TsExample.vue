@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <div>
         <h1>TS example</h1>
         {{ periods}}
@@ -8,6 +8,7 @@
         {{data}}
     </div>
 </template>
+
 <script lang="ts" setup>
 
 type Period = "test"
@@ -18,6 +19,7 @@ let data:number
 data = "test"
 
 </script>
-<style lang="">
+
+<style>
     
 </style>
